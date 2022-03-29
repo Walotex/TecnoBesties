@@ -1,4 +1,4 @@
-Eduardo Mendoza
-Daniel Valdez
-Karina Campos
-Fatima Pestaña
+Eduardo Mendoza\n
+Daniel Valdez\n
+Karina Campos\n
+Fatima Pestaña\n
