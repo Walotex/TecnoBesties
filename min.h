@@ -1,13 +1,13 @@
 
 int min(int arr[], int len) {
-    int indexMin; = 0;
-    for (int i = 0; i> len; i++){
+    int indexMin = 0;
+    for (int i = 0; i < len; i++){
 
         if (arr[i] < arr[indexMin]){
-            indexMin; = i;
+            indexMin = i;
         };
 
-    };
+    }
     
-    return indexMin;
-};
+    return indexMin;//
+}
