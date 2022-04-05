@@ -1,16 +1,26 @@
 #include <stdio.h>
-#include "Odd.h"
+#include <stdbool.h>
+#include <stdlib.h>
 #include "max.h"
 #include "min.h"
 #include "find.h"
+#include "Odd.h"
+
+#define MAX 20
 
 int main (){
-    int array[] = {3, 1 ,10, 14};
+    int array[5] = {5, 2 ,10, 14, 9};
+    int Oddie = Odd(array, 5);
+    
+    printf("Max values: %d\n", max(array, 5));
 
-    printf("Array values: {%d, %d, %d, %d}\n", array [0], array [1], array [2], array [3]);
+    printf("Min values: %d\n", min(array, 5));
 
-     scanf("%d", find);
-     printf("Number found", find);
+    printf("Odd values: %d\n", Oddie);
 
+    printf("Find values: %d\n", find(array, 5, 10));
+
+
+    
     return 0;
 }
